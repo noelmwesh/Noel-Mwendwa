@@ -3,37 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noel Mwendwa - Personal Profile</title>
+    <title>Registration Form</title>
 </head>
-
 <body>
+      <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="fname">Full Name:</label>
+        <input type="text" id="fname" name="fullname"> <br> <br>
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email"> <br> <br>
+        <label for="password">Password:</label>
+        <input type="password" required> <br><br>
+        <label>Gender:</label><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="Other"> <br> <br>
+        <label>Interests:</label>
+        <label for="football">Football</label> 
+        <input type="checkbox" id="football" name="interests" value="Football"> <br> <br>
+        <label for="music">Music</label> 
+        <input type="checkbox" id="music" name="interests" value="Music"> <br> <br>
+        <label for="networking">Networking</label>
+        <input type="checkbox" id="networking" name="interests" value="Networking"> <br> <br>
+        <label for="programming">Programming</label>
+        <input type="checkbox" id="programming" name="interests" value="Programming"> <br> <br>
+        <label for="country">Country:</label> 
+        <select id="country" name="country" required> <br> <br>
+        <option value="">-- Select Country --</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Tanzania">Tanzania</option>
+        <option value="Rwanda">Rwanda</option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="South Africa">South Africa</option>
+        </select> <br> <br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea> <br> <br>
+        <button type="submit">Submit</button>
 
-    <h1>Noel Mwendwa</h1>
-
-    <p>
-        I am Noel Mwendwa, a second-year Diploma in Information Technology
-        student at Zetech University.
-    </p>
-
-    <h2>My Interests</h2>
-
-    <ul>
-        <li>Watching football</li>
-        <li>Playing football</li>
-        <li>Listening to music</li>
-        <li>Networking</li>
-        <li>Swimming</li>
-    </ul>
-
-    <h2>My Favourite Scene</h2>
-
-    <img src="images/spiderman.jpg"
-         alt="A beautiful scene from Spider-Man"
-         width="500">
-
-    <h2>LinkedIn</h2>
-
-    <a href="https://www.linkedin.com/"></Visitmy LinkedIn></a>
+    </form>
 
 </body>
 </html>
